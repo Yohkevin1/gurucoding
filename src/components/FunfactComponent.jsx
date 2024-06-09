@@ -3,9 +3,7 @@ import funfact from "../assets/funfact.png";
 const FunfactComponent = () => {
     return (
       <>
-        <h2 id="funfact" className="my-2 mt-5 mb-5 text-center sectionHeader text-light">
-          Fun Fact
-        </h2>
+        <h2 id="funfact" className="my-2 mt-5 mb-5 text-center sectionHeader text-light">Fun Fact</h2>
         <Row className="text-light" xs={1} md={2} g={4}>
             <Col id="mainImg" className="order-1 order-md-1">
                 <img src={funfact} />
