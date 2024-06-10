@@ -39,7 +39,7 @@ function NavbarComponent() {
                     <strong>About</strong>
                   </Nav.Link>
                   <Nav.Link className="contact-button" href="https://dashboard.gurucoding.cartera.my.id">
-                    <strong>Login</strong>
+                    <strong className="text-light">Login</strong>
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>

@@ -23,12 +23,7 @@ const SearchComponent = () => {
         }
     }, []);
 
-    const search_box = {
-        position: 'absolute',
-        top: '20px',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        zIndex: 1000,
+    const searchBoxStyle = {
         background: 'white',
         padding: '10px',
         borderRadius: '5px',
@@ -36,7 +31,7 @@ const SearchComponent = () => {
     };
 
     return (
-        <div style={search_box} >
+        <div style={searchBoxStyle}>
             <form id="search-form" onSubmit={handleSearch}>
                 <div className="input-group">
                     <input

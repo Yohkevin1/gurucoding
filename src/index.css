@@ -310,7 +310,7 @@ textarea{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
   margin: 15px 0;
-  /* Adding vertical margin to separate cards */
+  min-height: 530px;
 }
 
 .service-card:hover {
