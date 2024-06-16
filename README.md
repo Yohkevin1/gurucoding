@@ -29,7 +29,7 @@ Repository Back-End GuruCoding
 
 ## Website
 
-<a href='gurucoding.cartera.my.id' target='_blank' rel='noreferrer'>
+<a href='https://gurucoding.cartera.my.id/' target='_blank' rel='noreferrer'>
 GuruCoding
 </a>
 
